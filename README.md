@@ -26,6 +26,10 @@ This homework assigment is to teach us how to make a website accessible to peopl
 
 * In the index.html, inside the <link> added type="text/css" (not sure if this was necessary).
 
+* In the style.css I moved up .content-box, .content-box img and .content-box h2, so they all stay under 
+the */ ARTCILES CONNECTED TO NAV LINK */ area. 
+
+
 *** Future Changes ***
 * Optimize the whole website to be responsive, since it breaks in smaller screens.
 
