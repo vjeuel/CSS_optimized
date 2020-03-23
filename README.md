@@ -4,7 +4,7 @@ This homework assigment is to teach us how to make a website accessible to peopl
 
 * Created this github repository to upload all my files on the daily basis, so I can have different versions of it, in case I need to go back and see what I have changed from previous versions or why my html or css isn't working now when it was working on the previous version.
 
-* Substituted many <div> tag for tag like figure, main, header, section, footer, small and a few others and assigned them in the CSS file respectively.
+* Substituted many < div > tag for tag like figure, main, header, section, footer, small and a few others and assigned them in the CSS file respectively.
 
 * Will be adding alt attributes to all the pictures to help people with disability to understand what is showing on the pictures and also in case the website doesn't render the picture the person will be able to at least understand what was been shown in the picture.
 
@@ -12,9 +12,7 @@ This homework assigment is to teach us how to make a website accessible to peopl
 
 * Added a CSS reset.css file to assets/css folder and linked to index.html and made sure to add before the style.css link.
 
-* I prefer 3 spaces in my tab, so I change every line and identation to 3 spaces.
-
-* Certain lines like <p> was using 3 lines and I resumed all to 1 line, making the HTML file a bit more concise.
+* Certain lines like < p > was using 3 lines and I resumed all to 1 line, making the HTML file a bit more concise.
 
 * In style.css added a html tag and added font-size: 10px so I could convert all px to rem unit.
 
