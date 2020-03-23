@@ -31,11 +31,31 @@ the */ ARTCILES CONNECTED TO NAV LINK */ area.
 
 * On .content-box set height to auto and added overflow auto, so the blue boxes increase height accordingly to the movement of the text inside.
 
+* Added letter-spacing to a, p, h2 and h3.
+
+* Moved the font-family form where they were to the h1, h2, h3, a and p tags.
+
+* Changed the h2 and h3 tags to font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;.
+
+* For the a and p tags, changed to font-weight: 100;.
+
+* Increased the font-weight to 700 for the h2 and h3 tags.
+
+* Increased the margin-left and margin-right to 30px (3rem) in the .float-left and float-right class.
+
+* Increased the botton margin in the benefit-box, so there is more spacing between the 3 boxes.
+
+* In the benefit-box, decided to put the icon before the title.
+
+* Inverted the color of the img inside the benefit-box using filter: invert(1);.
+
+* Increased to 2rem the margin-bottom of the h3 inside the benefit-box.
+
 **********************************************************************************************************************
 *** Future Changes ***
 * Optimize the whole website to be responsive, since it breaks in smaller screens.
 
-
+* Probably move the benefit-box to be under the article.
 
 
 
