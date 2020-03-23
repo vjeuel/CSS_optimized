@@ -24,12 +24,14 @@ This homework assigment is to teach us how to make a website accessible to peopl
 
 * On now footer tag, I changed the color and font-size of the h2 and small tag to black and 2rem, since I had used white and 4.5rem.
 
-* In the index.html, inside the <link> added type="text/css" (not sure if this was necessary).
+* In the index.html, inside the < link > added type="text/css" (not sure if this was necessary).
 
 * In the style.css I moved up .content-box, .content-box img and .content-box h2, so they all stay under 
 the */ ARTCILES CONNECTED TO NAV LINK */ area. 
 
+* On .content-box set height to auto and added overflow auto, so the blue boxes increase height accordingly to the movement of the text inside.
 
+**********************************************************************************************************************
 *** Future Changes ***
 * Optimize the whole website to be responsive, since it breaks in smaller screens.
 
