@@ -8,7 +8,7 @@ This homework assigment is to teach us how to make a website accessible to peopl
 
 * Will be adding alt attributes to all the pictures to help people with disability to understand what is showing on the pictures and also in case the website doesn't render the picture the person will be able to at least understand what was been shown in the picture.
 
-* Added id="search-engine-optimization" to line 30.
+* Added id="search-engine-optimization" to line ???????????????? 30 ?????????????????.
 
 * Added a CSS reset.css file to assets/css folder and linked to index.html and made sure to add before the style.css link.
 
@@ -18,14 +18,14 @@ This homework assigment is to teach us how to make a website accessible to peopl
 
 * Resized the h1, h2, h3 a and p tags.
 
-* In the style.css eliminated unecessary classes, since they were all alike, so I cretaed a .benefit-box, .benefit-box h3 and .benefit-box img, and was able to delete several unecessary extra lines of code.
+* In the style.css eliminated unnecessary classes, since they were all alike, so I created a .benefit-box, .benefit-box h3 and .benefit-box img, and was able to delete several unnecessary extra lines of code.
 
 * On now footer tag, I changed the color and font-size of the h2 and small tag to black and 2rem, since I had used white and 4.5rem.
 
-* In the index.html, inside the <link> added type="text/css" (not sure if this was necessary).
+* In the index.html, inside the < link > added type="text/css" (not sure if this was necessary).
 
 * In the style.css I moved up .content-box, .content-box img and .content-box h2, so they all stay under 
-the */ ARTCILES CONNECTED TO NAV LINK */ area. 
+the */ ARTICLES CONNECTED TO NAV LINK */ area. 
 
 
 *** Future Changes ***
@@ -52,6 +52,6 @@ CSS:
     background-position: center;
 }
 
-The question is? Do I need the <img> tag at all? If yes, and I add the alt="Drescription of a picture", it shows in the page on top of the CSS picture.
+The question is? Do I need the <img> tag at all? If yes, and I add the alt="Description of a picture", it shows in the page on top of the CSS picture.
 
-If no, where to I write the drescription of the picture?
+If no, where to I write the description of the picture?
