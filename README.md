@@ -4,6 +4,8 @@ This homework assigment is to teach us how to make a website accessible to peopl
 
 * Created this github repository to upload all my files on the daily basis, so I can have different versions of it, in case I need to go back and see what I have changed from previous versions or why my html or css isn't working now when it was working on the previous version.
 
+* Have my web address linked to this repository: https://vjeuel.github.io/Homework-1/ .
+
 * Substituted many < div > tag for tag like figure, main, header, section, footer, small and a few others and assigned them in the CSS file respectively.
 
 * Will be adding alt attributes to all the pictures to help people with disability to understand what is showing on the pictures and also in case the website doesn't render the picture the person will be able to at least understand what was been shown in the picture.
