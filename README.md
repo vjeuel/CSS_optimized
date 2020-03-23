@@ -51,15 +51,21 @@ the */ ARTICLES CONNECTED TO NAV LINK */ area.
 
 * Increased to 2rem the margin-bottom of the h3 inside the benefit-box.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac36c8c865c0a6f6d0ed92a36405831fe6763ce4
 **********************************************************************************************************************
 *** Future Changes ***
 * Optimize the whole website to be responsive, since it breaks in smaller screens.
 
 * Probably move the benefit-box to be under the article.
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> ac36c8c865c0a6f6d0ed92a36405831fe6763ce4
 
 
 
