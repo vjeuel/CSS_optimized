@@ -68,6 +68,7 @@ the */ ARTICLES CONNECTED TO NAV LINK */ area.
 
 *** Credits ***
 https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
+
 https://developer.mozilla.org/en-US/
 https://www.w3schools.com/
 https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/
