@@ -55,29 +55,22 @@ header h1 .seo {
 }
 
 header nav {
-    padding-top: 1.5rem;
-    margin-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
     float: right;
     font-size: 2rem;
 }
 
-header ul {
-    list-style-type: none;
-}
-
-header li {
-    display: inline-block;
-    margin-left: 5rem;
-}
-
 header a {
     line-height: 1;
+    margin-left: 5rem;
 }
 
 
 /* MAIN PICTURE OF THE WEBSITE */
-main {
-    height: 80rem;
+#main-picture img {
+    height: 100vh;
     width: 100%;
     margin-bottom: 2.5rem;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -97,7 +90,7 @@ main {
     margin-left: 3rem;
 }
 
-article {
+main {
     width: 75%;
     margin-left: 2rem;
     display: inline-block;
@@ -123,7 +116,7 @@ article {
 
 
 /* BENEFITS */
-.benefits {
+#benefits {
     margin-right: 2rem;
     padding: 2rem;
     clear: both;
