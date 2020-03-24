@@ -2,6 +2,9 @@
 
 This homework assigment is to teach us how to make a website accessible to people with disabilities and also to optmize for search engine.
 
+I will be logging every change made on the HTML and CSS files and also at the end listing the Future Changes that I find important to make easy to be viewed in different screen sizes and formats.
+
+
 * Created this github repository to upload all my files on the daily basis, so I can have different versions of it, in case I need to go back and see what I have changed from previous versions or why my html or css isn't working now when it was working on the previous version.
 
 * Have my web address linked to this repository: https://vjeuel.github.io/Homework-1/ .
@@ -10,7 +13,7 @@ This homework assigment is to teach us how to make a website accessible to peopl
 
 * Will be adding alt attributes to all the pictures to help people with disability to understand what is showing on the pictures and also in case the website doesn't render the picture the person will be able to at least understand what was been shown in the picture.
 
-* Added id="search-engine-optimization" to line ???????????????? 30 ?????????????????.
+* Added id="search-engine-optimization" to line 34.
 
 * Added a CSS reset.css file to assets/css folder and linked to index.html and made sure to add before the style.css link.
 
@@ -18,7 +21,7 @@ This homework assigment is to teach us how to make a website accessible to peopl
 
 * In style.css added a html tag and added font-size: 10px so I could convert all px to rem unit.
 
-* Resized the h1, h2, h3 a and p tags.
+* Resized the h1, h2, h3, a and p tags.
 
 * In the style.css eliminated unnecessary classes, since they were all alike, so I created a .benefit-box, .benefit-box h3 and .benefit-box img, and was able to delete several unnecessary extra lines of code.
 
@@ -51,21 +54,27 @@ the */ ARTICLES CONNECTED TO NAV LINK */ area.
 
 * Increased to 2rem the margin-bottom of the h3 inside the benefit-box.
 
-<<<<<<< HEAD
+* After pondering and reading a lot, decided to get rid of the < ul > and just stick to the < a > tag in the nav bar.
 
-=======
->>>>>>> ac36c8c865c0a6f6d0ed92a36405831fe6763ce4
-**********************************************************************************************************************
+* In the #main-picture, changed the height to 100vh.
+
+
 *** Future Changes ***
 * Optimize the whole website to be responsive, since it breaks in smaller screens.
 
 * Probably move the benefit-box to be under the article.
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> ac36c8c865c0a6f6d0ed92a36405831fe6763ce4
+*** Credits ***
+https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
+https://developer.mozilla.org/en-US/
+https://www.w3schools.com/
+https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/
+https://flexboxfroggy.com/
+https://codepip.com/games/grid-garden/
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
 
@@ -73,7 +82,7 @@ the */ ARTICLES CONNECTED TO NAV LINK */ area.
 
 Here is my code in HTML:
 <div class="image">
-  <img src="#" alt="">
+  <img src="" alt="">
 </div>
 
 CSS:
