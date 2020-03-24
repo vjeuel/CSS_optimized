@@ -32,8 +32,6 @@ I will be logging every change made on the HTML and CSS files and also at the en
 * In the style.css I moved up .content-box, .content-box img and .content-box h2, so they all stay under 
 the */ ARTICLES CONNECTED TO NAV LINK */ area. 
 
-* On .content-box set height to auto and added overflow auto, so the blue boxes increase height accordingly to the movement of the text inside.
-
 * Added letter-spacing to a, p, h2 and h3.
 
 * Moved the font-family form where they were to the h1, h2, h3, a and p tags.
@@ -58,11 +56,19 @@ the */ ARTICLES CONNECTED TO NAV LINK */ area.
 
 * In the #main-picture, changed the height to 100vh.
 
+* Since I have read about and learned a bit of flexbox and grid I decided to try to make the website responsive, I had plans to leave that for a future feature, but I figured I would go ahead and try to do it now.
+
+* I think I will try grid for this site.
+
+* GRID
+  - Added grid to main tag and 2rem gap between each grid and am fairly surprised on how easy it was.
+  - Did the same thing with the benefit-box.
+
+* As far as I understood Media Queries is part of making a page responsive, so I am also going to create 3 media queries, for screen size of 576px, 768px and 992px and anything above 992px won't need any changes.
+  - This was not as easy as doing grid at first, but I think it looks good.
 
 *** Future Changes ***
-* Optimize the whole website to be responsive, since it breaks in smaller screens.
-
-* Probably move the benefit-box to be under the article.
+* Wanted to make responsive as Future Changes but ended up doing it already.
 
 
 

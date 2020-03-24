@@ -14,14 +14,7 @@ h1 {
     font-size: 4rem;
 }
 
-h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 3rem;
-    letter-spacing: 0.1rem;
-    font-weight: 700;
-}
-
-h3 {
+h2, h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 3rem;
     letter-spacing: 0.1rem;
@@ -64,7 +57,8 @@ header nav {
 
 header a {
     line-height: 1;
-    margin-left: 5rem;
+    margin-left: 4rem;
+    font-size: 1.75rem;
 }
 
 
@@ -79,7 +73,7 @@ header a {
 }
 
 
-/* ARTICLES CONNECTED TO NAV LINK */
+/* MAIN INFORMATION CONNECTED TO NAV LINK */
 .float-left {
     float: left;
     margin-right: 3rem;
@@ -91,22 +85,27 @@ header a {
 }
 
 main {
-    width: 75%;
+    width: 96%;
     margin-left: 2rem;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 0 auto;
 }
 
 .content-box {
+    box-sizing: border-box;
     margin-bottom: 2rem;
-    padding: 5rem;
+    padding: 3rem 3rem 5rem 3rem;
     height: auto;
     background-color: #0072bb;
     color: #ffffff;
-    overflow: auto;
 }
 
 .content-box img {
+    width: 100%;
     max-height: 20rem;
+    margin-bottom: 3rem;
 }
 
 .content-box h2 {
@@ -117,18 +116,19 @@ main {
 
 /* BENEFITS */
 #benefits {
-    margin-right: 2rem;
-    padding: 2rem;
-    clear: both;
-    float: right;
-    width: 20%;
+    width: 100%;
     height: 100%;
     background-color: #2589bd;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
 }
 
 .benefit-box {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     color: #ffffff;
+
 }
 
 .benefit-box h3 {
@@ -138,7 +138,7 @@ main {
 
 .benefit-box img {
     display: block;
-    margin: 1rem auto;
+    margin: 0 auto;
     max-width: 15rem;
     filter: invert(1);
 }
@@ -155,4 +155,124 @@ footer h2, small{
     font-size: 1.5rem;
     color: black;
     padding: 1.5rem;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 1200px) {}
+
+@media (max-width: 992px) {
+    header {
+        display: grid;
+        grid-template-rows: 5.5rem 2rem;
+    }
+    
+    header h1 {
+        text-align: center;
+        grid-area: 1 / 1 / 2 / 4;
+    }
+
+    header nav {
+        width: 100%;
+        grid-area: 2 / 1 / 3 / 4;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    header nav a {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    a, p {
+        font-size: 1.5rem;
+    }
+
+    h2, h3 {
+        font-size: 2rem;
+    }
+    
+    header a {
+        font-size: 1.5rem;
+    }
+
+    main {
+        width: 94%;
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, auto);
+    }
+
+    .content-box {
+        padding: 3rem;
+    }
+
+    .content-box h2 {
+        font-size: 2.5rem;
+    }
+
+    .content-box img {
+        width: auto;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        grid-template-rows: 6rem 1fr;
+    }
+
+    header nav {
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 0.5rem;
+    }
+
+    header a {
+        background-color: #d9dcd6;
+        padding: 1rem;
+        color: #2a607c;
+        font-weight: 600;
+        border-radius: 1rem;
+    }
+
+    .content-box {
+        display: flexbox;
+        flex-wrap: nowrap;
+    }
+
+    .content-box img {
+        width: 100%;
+        height: auto;
+        max-height: 40rem;
+        margin-bottom: 3rem;
+    }
+
+    .content-box h2, .content-box p {
+        text-align: center;
+    }
+
+    .float-left, .float-right {
+        float: none;
+        margin: 0;
+    }
+
+    #benefits {
+        grid-template-columns: none;
+    }
+
+    .benefit-box h3 {
+        font-size: 2.5rem;
+    }
+
+    .benefit-box p {
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
 }
