@@ -66,15 +66,16 @@ the */ ARTICLES CONNECTED TO NAV LINK */ area.
 
 
 
-*** Credits *** <br>
+*** Credits ***
+
 https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i <br>
 https://developer.mozilla.org/en-US/ <br>
 https://www.w3schools.com/ <br>
-https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/
-https://flexboxfroggy.com/
-https://codepip.com/games/grid-garden/
-https://css-tricks.com/snippets/css/complete-guide-grid/
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/ <br>
+https://flexboxfroggy.com/ <br>
+https://codepip.com/games/grid-garden/ <br>
+https://css-tricks.com/snippets/css/complete-guide-grid/ <br>
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <br>
 
 
 
