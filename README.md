@@ -90,4 +90,5 @@ https://flexboxfroggy.com/ <br>
 https://codepip.com/games/grid-garden/ <br>
 https://css-tricks.com/snippets/css/complete-guide-grid/ <br>
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <br>
+https://tinyjpg.com/
 
