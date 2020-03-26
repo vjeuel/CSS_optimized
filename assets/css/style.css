@@ -104,7 +104,7 @@ main {
 
 .content-box img {
     width: 100%;
-    max-height: 20rem;
+    max-height: auto;
     margin-bottom: 3rem;
 }
 
@@ -186,6 +186,14 @@ footer h2, small{
         margin: 0;
         text-align: center;
     }
+
+    main {
+        grid-template-columns: none;
+    }
+
+    .content-box img {
+        width: 40%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -216,7 +224,6 @@ footer h2, small{
     }
 
     .content-box img {
-        width: auto;
         margin-bottom: 0;
     }
 }
