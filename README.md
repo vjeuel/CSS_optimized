@@ -9,7 +9,7 @@ I will be logging every change made on the HTML and CSS files and also at the en
 
 * Have my web address linked to this repository: [my website on github](https://vjeuel.github.io/Homework-1/ ).
 
-* Substituted many '<div>' tag for tag like figure, main, header, section, footer, small and a few others and assigned them in the CSS file respectively.
+* Substituted many `<div>` tag for tag like figure, main, header, section, footer, small and a few others and assigned them in the CSS file respectively.
 
 * Will be adding alt attributes to all the pictures to help people with disability to understand what is showing on the pictures and also in case the website doesn't render the picture the person will be able to at least understand what was been shown in the picture.
 
@@ -17,7 +17,7 @@ I will be logging every change made on the HTML and CSS files and also at the en
 
 * Added a CSS reset.css file to assets/css folder and linked to index.html and made sure to add before the style.css link.
 
-* Certain lines like '<p>' was using 3 lines and I resumed all to 1 line, making the HTML file a bit more concise.
+* Certain lines like `<p>` was using 3 lines and I resumed all to 1 line, making the HTML file a bit more concise.
 
 * In style.css added a html tag and added font-size: 10px so I could convert all px to rem unit.
 
@@ -27,7 +27,7 @@ I will be logging every change made on the HTML and CSS files and also at the en
 
 * On now footer tag, I changed the color and font-size of the h2 and small tag to black and 2rem, since I had used white and 4.5rem.
 
-* In the index.html, inside the '<link>' added type="text/css" (not sure if this was necessary).
+* In the index.html, inside the `<link>` added type="text/css" (not sure if this was necessary).
 
 * In the style.css I moved up .content-box, .content-box img and .content-box h2, so they all stay under 
 the */ ARTICLES CONNECTED TO NAV LINK */ area. 
@@ -52,13 +52,15 @@ the */ ARTICLES CONNECTED TO NAV LINK */ area.
 
 * Increased to 2rem the margin-bottom of the h3 inside the benefit-box.
 
-* After pondering and reading a lot, decided to get rid of the '<ul>' and just stick to the '<a>' tag in the nav bar.
+* After pondering and reading a lot, decided to get rid of the `<ul>` and just stick to the `<a>` tag in the nav bar.
 
 * In the #main-picture, changed the height to 100vh.
 
 * Since I have read about and learned a bit of flexbox and grid I decided to try to make the website responsive, I had plans to leave that for a future feature, but I figured I would go ahead and try to do it now.
 
 * I think I will try grid for this site.
+
+* Noticed that the pictures were taking too long to open due to its size, so I reduced them using a photo editor and reduced their size even more using [tiny jpg](https://tinyjpg.com/).
 
 ### GRID
   * Added grid to main tag and 2rem gap between each grid and am fairly surprised on how easy it was.
