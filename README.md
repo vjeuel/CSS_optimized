@@ -1,4 +1,4 @@
-# Homework-1
+# **Homework-1**
 
 This homework assignment is to teach us how to make a website accessible to people with disabilities and also to optimize for search engine.
 
